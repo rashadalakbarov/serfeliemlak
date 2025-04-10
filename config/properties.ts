@@ -7,6 +7,7 @@ export interface PropertiesType {
     size: number,
     price: number,
     imageUrl: string,
+    status?: string,
 }
 
 export const propertiesData: PropertiesType[] = [
@@ -19,6 +20,7 @@ export const propertiesData: PropertiesType[] = [
         size: 1200,
         price: 45000,
         imageUrl: "/images/properties/p1.jpg",
+        status: "vip",
     },
     {
         id: 2,
@@ -29,6 +31,7 @@ export const propertiesData: PropertiesType[] = [
         size: 950,
         price: 50000,
         imageUrl: "/images/properties/p2.jpg",
+        status: "premium",
     },
     {
         id: 3,
@@ -39,6 +42,7 @@ export const propertiesData: PropertiesType[] = [
         size: 1300,
         price: 60000,
         imageUrl: "/images/properties/p3.jpg",
+        status: "premium",
     },
     {
         id: 4,
@@ -49,6 +53,7 @@ export const propertiesData: PropertiesType[] = [
         size: 800,
         price: 75000,
         imageUrl: "/images/properties/p4.jpg",
+        status: "vip",
     },
     {
         id: 5,
@@ -69,5 +74,6 @@ export const propertiesData: PropertiesType[] = [
         size: 700,
         price: 48000,
         imageUrl: "/images/properties/p6.jpg",
+        status: "vip",
     },
 ];

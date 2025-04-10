@@ -41,7 +41,7 @@ const Header = () => {
           <Link href="/login">Giriş</Link>
         </Button>
 
-        <Navbar />
+        <div className='block lg:hidden'><Navbar /></div>
       </div>
     </div>
   )
