@@ -120,3 +120,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+body {
+  background: #f1f3f7;
+}
+
+.my-button {
+  @apply px-6 py-3 bg-gray-800 text-white rounded-md hover:bg-gray-700 transition-all;
+}
+
+.flex-center {
+  @apply flex items-center justify-center;
+}

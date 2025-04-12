@@ -1,8 +1,9 @@
+import EstateCard from "@/components/EstateCard";
 
 export default function Home() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <EstateCard/>
     </div>
   );
 }
