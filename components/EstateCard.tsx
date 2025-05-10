@@ -35,7 +35,7 @@ type EstateProps = {
 
 const EstateCard = ({datas}: EstateProps) => {
   return (
-    <Card className='max-w-[300px] min-w-[240px] shadow-lg p-0 overflow-hidden gap-0'>
+    <Card className='max-w-[300px] min-w-[250px] shadow-lg p-0 overflow-hidden gap-0'>
         <CardHeader className='p-0'>
             <div className='min-h-[120px] relative'>
                 <Image src={datas.imageUrl} alt='properties' width={640} height={427} priority />

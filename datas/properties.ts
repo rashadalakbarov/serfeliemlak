@@ -1,15 +1,3 @@
-// export interface PropertiesType {
-//     id: number,
-//     propertyName: string,
-//     location: string,
-//     roomcount: number,
-//     floor: number,
-//     area: number,
-//     price: number,
-//     imageUrl: string,
-//     status?: string,
-// }
-
 export const propertiesData = [
     {
         id: 1,

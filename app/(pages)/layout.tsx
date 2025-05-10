@@ -6,9 +6,9 @@ interface PageLayoutProps {
 
 const PageLayout = ({children}: PageLayoutProps) => {
   return (
-    <>
+    <div className='container mx-auto'>
         {children}
-    </>
+    </div>
   )
 }
 
